@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Employee Apllication Form</title>
+</head>
+<body>
+<h1 align="center">Apllication Form</h1>
+<table align="center">
+	<form method="post" action="emp">
+		<tr><td>Name:</td><td><input type="text" name="name"></td></tr>
+		<tr><td>Email:</td><td><input type="email" name="email"></td></tr>
+		<tr><td>Password:</td><td><input type="password" name="pass"></td></tr>
+		<tr><td>Date Of Birth:</td><td><input type="date" name="dob"></td></tr>
+		<tr><td>Gender:</td><td>Male<input type="radio" name="gender" value="male">
+								Female<input type="radio" name="gender" value="female">
+						</td></tr>
+								
+		<tr><td>Course:</td><td><input type="checkbox" name="course" value="java">Java
+								<input type="checkbox" name="course" value="python">Python
+								<input type="checkbox" name="course" value="Testing">Testing
+								
+								</td></tr>
+								
+								<tr><td>Batch</td><td><select name="batch">
+								<option value="8-12">Morning Batch</option>
+								<option value="12-4">Afternoon Batch</option>
+								<option value="4-8">Evening Batch</option>
+								</select>
+								</td></tr>
+								
+								<tr><td></td><td><input type="submit">
+								<input type="reset" value="clear"></td></tr>
+	</form>
+</table>
+</body>
+</html>
